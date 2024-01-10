@@ -18,6 +18,18 @@ This output is an error files can not be the argument for cd. <br/>
 
 **ls No Arguments**
 ![Image](SC4.png)
-The current directory was /lecture <br/>
-The output was the /lecture1 directory. This was printed out and in blue because it is a folder. <br/>
+The current directory was /home <br/>
+The output was the/lecture1. This was printed out and in blue because it is a folder. <br/>
+This is not an error. <br/>
+
+**ls Path to Directory**
+![Image](SC5.png)
+The current directory was /home <br/>
+The output was the contents of what was in the argument. The argument was lecture1 so everything inside this folder was printed. <br/>
+This is not an error. <br/>
+
+**ls Path to File**
+![Image](SC6.png)
+The current directory was /lecture1 <br/>
+The output was the contents of README. The argument was README and so the contents of it were printed. <br/>
 This is not an error. <br/>
