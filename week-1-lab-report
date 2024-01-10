@@ -1,2 +1,5 @@
 **cd**
-![Image](SC1
+![Image](SC1.png)
+The current directory was /home
+The output was nothing because using cd changes the directory. If the current directory was lecture1 for example, this would move it back to home.
+This output is not an error as nothing should happen if you are in the /home directory.
