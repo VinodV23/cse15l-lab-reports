@@ -1,11 +1,11 @@
-**cd**
+**cd No Argument**
 ![Image](SC1.png)
 The current directory was /home
 The output was nothing because using cd changes the directory. If the current directory was lecture1 for example, this would move it back to home.
 This output is not an error as nothing should happen if you are in the /home directory.
 
-**cd**
+**cd Path to Directory**
 ![Image](SC2.png)
-The current directory was /home
+The current directory was /home <br/>
 The output was that the current directory became /lecture1 and the prompt was updated. This was because the argument is what the directory was changed to.
 This output is not an error as the current directory was successfully changed.
