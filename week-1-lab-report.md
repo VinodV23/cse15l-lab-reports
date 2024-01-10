@@ -11,7 +11,7 @@ The output was that the current directory became /lecture1 and the prompt was up
 This output is not an error as the current directory was successfully changed. <br/>
 
 **cd Path to File**
-![Image](SC3.png)
+![Image]()
 The current directory was /lecture <br/>
 The output was that it said not a directory. cd can only be used for directories, not files.<br/>
 This output is an error files can not be the argument for cd. <br/>
