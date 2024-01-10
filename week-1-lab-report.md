@@ -37,5 +37,5 @@ This is not an error. <br/>
 **cat No Arguments**
 ![Image](SC7.png)
 The current directory was /lecture1 <br/>
-There was no output. cat prints out the contents of a file but requires an argument for that to occur. <br/>
-This is an error that occurs because there is no file for it to print the contents of. <br/>
+There was no output. cat prints out the contents of a file/directory but requires an argument for that to occur. <br/>
+This is an error that occurs because there is no file or directory for it to print the contents of. <br/>
