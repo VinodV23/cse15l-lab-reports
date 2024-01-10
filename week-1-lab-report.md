@@ -1,3 +1,4 @@
+# Week 1 Lab Report
 ## cd No Argument
 ![Image](SC1.png)
 The working directory was /home <br/>
