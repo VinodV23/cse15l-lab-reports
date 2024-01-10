@@ -33,3 +33,9 @@ This is not an error. <br/>
 The current directory was /lecture1 <br/>
 The output was the contents of README. The argument was README and so the contents of it were printed. <br/>
 This is not an error. <br/>
+
+**cat No Arguments**
+![Image](SC7.png)
+The current directory was /lecture1 <br/>
+There was no output. cat prints out the contents of a file but requires an argument for that to occur. <br/>
+This is an error that occurs because there is no file for it to print the contents of. <br/>
