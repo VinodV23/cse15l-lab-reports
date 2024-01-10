@@ -39,3 +39,9 @@ This is not an error. <br/>
 The current directory was /lecture1 <br/>
 There was no output. cat prints out the contents of a file/directory but requires an argument for that to occur. <br/>
 This is an error that occurs because there is no file or directory for it to print the contents of. <br/>
+
+**cat Path to Directory**
+![Image](SC8.png)
+The current directory was /lecture1 <br/>
+The output was Is a directory. The argument was /messages and the output stated that the argument was a directory <br/>
+This is not an error as cat printed out the fact that /messages is a directory. <br/>
