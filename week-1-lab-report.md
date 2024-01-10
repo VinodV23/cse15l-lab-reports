@@ -15,3 +15,9 @@ This output is not an error as the current directory was successfully changed. <
 The current directory was /lecture <br/>
 The output was that it said not a directory. cd can only be used for directories, not files.<br/>
 This output is an error files can not be the argument for cd. <br/>
+
+**ls No Arguments**
+![Image](SC4.png)
+The current directory was /lecture <br/>
+The output was the /lecture1 directory. This was printed out and in blue because it is a folder. <br/>
+This is not an error. <br/>
