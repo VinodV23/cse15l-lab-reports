@@ -43,5 +43,11 @@ This is an error that occurs because there is no file or directory for it to pri
 **cat Path to Directory**
 ![Image](SC8.png)
 The current directory was /lecture1 <br/>
-The output was Is a directory. The argument was /messages and the output stated that the argument was a directory <br/>
+The output was Is a directory. The argument was /messages and the output stated that the argument was a directory. <br/>
 This is not an error as cat printed out the fact that /messages is a directory. <br/>
+
+**cat Path to File**
+![Image](SC9.png)
+The current directory was /lecture1 <br/>
+The output was the contents of README. The argument was README and so every line in README was printed out. <br/>
+This is not an error as cat printed out the contents of the README file. <br/>
