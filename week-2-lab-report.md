@@ -1,9 +1,9 @@
 # Week 2 Lab Report
 ## ChatServer
-! [Image] (Chat1.png)
+! [image] (Chat1.png)
 Above is the code for the assignment <br/>
 <br/>
-! [Image] (Chat2.png)
+! [image] (Chat2.png)
 Above is a screenshot after one addition to the chat log. The handle request method is being called. <br/> \
 The relevant argument is the url of the server. Pieces of this url such as the path and
 query are used later in the method. Some relevant fields are ```query``` which contains
