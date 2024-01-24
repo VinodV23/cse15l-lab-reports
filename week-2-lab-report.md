@@ -26,7 +26,14 @@ Above is a screenshot of the absolute path for the private key. <br/> \
 ![Image](Public1.png)
 Above is a screenshot of the absolute path for the public key. <br/> \
 ![Image](NoPassword.png)
-Above is a screenshot of my logging in without using the password. <br/> \
+Above is a screenshot of my logging in without using the password. <br/> 
+## Reflection
+This week I learned how to both work with a basic server and ssh. 
+This includes using the path and query of a url to cause changes to the web page. This can have use in
+working with databases or search systems as the url could hold the input. In addition, being able to 
+remotely and securely log into an account with files and directories could be useful tool when I do not
+have access to my current laptop. I also learned about VScode and how it is able to do both of the things mentioned
+locally on my machine. 
 
 
 
