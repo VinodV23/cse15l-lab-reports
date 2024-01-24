@@ -19,7 +19,7 @@ The relevant argument is the url of the server. The path is checked to see if it
 the query of the url and ```first```, ```second```, and ```log``` which contain empty 
 strings that will be updated with parts of the final return value. <br/> \
 ```first``` is now overwritten to ```How are you``` while ```second``` is overwritten to ```vinod```. ```log``` is updated
-to reflect this change while keeping the same formatting. <br/> \
+to reflect this change while keeping the same formatting. <br/> 
 ## SSH
 ![Image](Private1.png)
 Above is a screenshot of the absolute path for the private key. <br/> \
