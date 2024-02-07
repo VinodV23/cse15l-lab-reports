@@ -21,7 +21,7 @@ strings that will be updated with parts of the final return value. <br/> \
 ```first``` is now overwritten to ```How are you``` while ```second``` is overwritten to ```vinod```. ```log``` is updated
 to reflect this change while keeping the same formatting. <br/> 
 ## SSH
-![Image](Private1.png)
+![Image](SCPrivateKey.png)
 Above is a screenshot of the absolute path for the private key. <br/> \
 ![Image](Public1.png)
 Above is a screenshot of the absolute path for the public key. <br/> \
