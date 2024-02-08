@@ -91,3 +91,24 @@ wc noTheBiomed.txt
 ```
 The command returns lines with the given string (tHe) irrespective of case. This is then added to an output file. Has use in identifying words that may or may not be capitalized. <br>
 Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
+```- o ``` option <br>
+Example 1 <br>
+```
+grep -o "rna" biomedFull.txt > onlyRNABiomed.txt
+```
+```
+wc onlyRNABiomed.txt                            
+   16888   16888   67552 onlyRNABiomed.txt
+```
+The command only returns occurrences of the given text (rna). This is then added to an output file. This can be used to find the number of occurrences of a string in a file. <br>
+Example 2 <br>
+```
+grep -o "the" base-pair.txt > onlyThe.txt
+```
+```
+wc onlyThe.txt 
+       8       8      32 onlyThe.txt
+```
+The command only returns occurrences of the given text (the). This is then added to an output file. This can be used to find the number of occurrences of a string in a file. <br>
+Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
