@@ -71,4 +71,23 @@ wc countI.txt
 The command is printing lines with "rna" in it. This is then added to an output file. Has use in identifying how common something is in a file. <br>
 Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-
+```- i ``` option <br>
+Example 1 <br>
+```
+grep -r -i "RnA" technical/biomed > rnaBiomed.txt
+```
+```
+wc rnaBiomed.txt 
+    9023   83583  884025 rnaBiomed.txt
+```
+The command returns lines with the given string (rNa) irrespective of case. This is then added to an output file. Has use in identifying words that may or may not be capitalized. <br>
+Example 2 <br>
+```
+grep -i "tHe" biomedFull.txt > noTheBiomed.txt
+```
+```
+wc noTheBiomed.txt 
+  586900 5605596 66490173 noTheBiomed.txt
+```
+The command returns lines with the given string (tHe) irrespective of case. This is then added to an output file. Has use in identifying words that may or may not be capitalized. <br>
+Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
