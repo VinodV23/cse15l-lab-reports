@@ -29,7 +29,7 @@ the elements are swapped. <br>
 
 ## Researching Commands
 Grep <br>
-- v option <br>
+ ```- v ``` option <br>
 Example 1 <br>
 ```
 grep -v "rna" output_file.txt > notRna.txt
@@ -38,6 +38,7 @@ grep -v "rna" output_file.txt > notRna.txt
 wc notRna.txt 
   481834 3846209 43218779 notRna.txt
 ```
+The command is returning lines without "rna" in it. This is then added to an output file. Has use in excluding certain keywords. <br>
 Example 2 <br>
 ```
 grep -v "I" base-pair.txt > removeI.txt
@@ -46,3 +47,7 @@ grep -v "I" base-pair.txt > removeI.txt
 wc removeI.txt 
        3      48     412 removeI.txt
 ```
+The command is returning lines without "I" in it. This is then added to an output file. Has use in excluding certain keywords. <br>
+Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
+
