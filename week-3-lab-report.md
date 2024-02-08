@@ -48,6 +48,27 @@ wc removeI.txt
        3      48     412 removeI.txt
 ```
 The command is returning lines without "I" in it. This is then added to an output file. Has use in excluding certain keywords. <br>
+Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/) <br>
+
+ ```- c ``` option <br>
+Example 1 <br>
+```
+grep -c "I" base-pair.txt > countI.txt
+```
+```
+wc countI.txt 
+       1       1       2 countI.txt
+```
+The command prints only a count of the lines with "I". This is then added to an output file. Has use in identifying how common something is in a file. <br>
+Example 2 <br>
+```
+grep -r -c "rna" technical/biomed > countI.txt
+```
+```
+wc countI.txt                                 
+     837     837   31542 countI.txt
+```
+The command is printing lines with "rna" in it. This is then added to an output file. Has use in identifying how common something is in a file. <br>
 Source: [GeeksforGeeks] (https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 
