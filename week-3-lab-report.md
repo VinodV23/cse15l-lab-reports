@@ -27,13 +27,22 @@ The fix addresses the issue as now the array is correctly reversed. Before the f
 as the updated values would be used for the second half. Changing the range of the for loop to half of the length, makes the loop stop after
 the elements are swapped. <br>
 
-##Researching Commands
+## Researching Commands
 Grep <br>
 - v option <br>
+Example 1 <br>
 ```
 grep -v "rna" output_file.txt > notRna.txt
 ```
 ```
 wc notRna.txt 
   481834 3846209 43218779 notRna.txt
+```
+Example 2 <br>
+```
+grep -v "I" base-pair.txt > removeI.txt
+```
+```
+wc removeI.txt 
+       3      48     412 removeI.txt
 ```
