@@ -21,9 +21,8 @@ Non-Failure Inducing Input:
     assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
 	}
  ```
-
-<br>
-Symptom: ![Image](TestFailAndPass.png) 
+Symptom: 
+![Image](TestFailAndPass.png)
 <br>
 Bug: <br>
 Before - <br>
