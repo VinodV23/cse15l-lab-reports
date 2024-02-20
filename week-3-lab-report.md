@@ -1,8 +1,25 @@
 # Week 3 Lab Report
 ## Bugs
 The ```reverseInPlace``` method <br>
-Failure Inducing Input: ```int[] input1 = {1,2,3}``` A non-empty array. <br>
-Non-Failure Inducing Input: ```int[] input2 = {}``` An empty array. <br>
+Failure Inducing Input: 
+```
+    @Test 
+	public void testReverseInPlace() {
+    int[] input1 = {1,2,3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3,2,1}, input1);
+	}
+```
+<br>
+Non-Failure Inducing Input: 
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1)); 
+  }
+```
+<br>
 Symptom: ![Image](Symptom.png) <br>
 Bug: <br>
 Before - <br>
