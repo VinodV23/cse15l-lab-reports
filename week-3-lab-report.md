@@ -23,7 +23,8 @@ Non-Failure Inducing Input:
  ```
 
 <br>
-Symptom: ![Image](Symptom.png) <br>
+Symptom: ![Image][TestFailAndPass.png] 
+<br>
 Bug: <br>
 Before - <br>
 
