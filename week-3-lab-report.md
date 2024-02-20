@@ -12,13 +12,16 @@ Failure Inducing Input:
 ```
 <br>
 Non-Failure Inducing Input: 
+
 ```
-@Test
-  public void testReversed() {
-    int[] input1 = { };
-    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1)); 
-  }
-```
+    @Test 
+	public void testReversed() {
+    int[] input1 = {};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
+	}
+ ```
+
 <br>
 Symptom: ![Image](Symptom.png) <br>
 Bug: <br>
