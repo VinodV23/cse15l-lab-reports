@@ -1,25 +1,6 @@
 # Week 4 Lab Report
-## Bugs
-The ```reverseInPlace``` method <br>
-Failure Inducing Input: 
-```
-    @Test 
-	public void testReverseInPlace() {
-    int[] input1 = {1,2,3};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{3,2,1}, input1);
-	}
-```
-<br>
-Non-Failure Inducing Input: 
+## Step 4
+![Image](Step4.png)
+Keys Pressed: ```<Ctrl + R>```, s, ```<Enter>``` Opening up the command history, I entered on the ```ssh vvairavaraj@ieng6.ucsd.edu``` command. This command logged me into ieng6.
+## Step 5
 
-```
-    @Test 
-	public void testReversed() {
-    int[] input1 = {};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
-	}
- ```
-Symptom: 
-![Image](TestFailAndPass.png)
