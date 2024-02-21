@@ -7,4 +7,4 @@ Keys Pressed: ```<Ctrl + R>```, s, ```<Enter>``` Opening up the command history,
 Keys Pressed: ```<Ctrl + R>```, g, i, t, ```<Space>```, c, l, ```<Enter>```. Opening up the command history, I entered the ```git clone git@github.com:VinodV23/lab7.git``` command. I had to type more of the first part of the command because other git commands are used in this process. This command cloned through ssh from the fork I made.
 ## Step 6
 ![Image](Step6.png)
-Keys Pressed: c, d ```<Space>```, l, ```<Tab>```, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, c, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, ```<Space>```, c, ```<Enter>```.
+Keys Pressed: c, d ```<Space>```, l, ```<Tab>```, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, c, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, ```<Space>```, c, ```<Enter>```. I first moved directories to ```lab7/```. Then I used the command history to use this command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` to compile all java files. Then I used the command history to execute the test file ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```
