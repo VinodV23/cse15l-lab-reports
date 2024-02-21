@@ -13,4 +13,7 @@ Keys Pressed: c, d, ```<Space>```, l, ```<Tab>```, ```<Enter>```. ```<Ctrl + R>`
 Keys Pressed: v, i, m, ```<Space>```, L, ```<Tab>```, ., ```<Tab>```, ```<Eneter>```. G, k, k, k ,k ,k ,k, w, w, h, h, x, i, 2, ```<Esc>```, :, w, q. I used ```vim ListExamples.java``` to open the file in vim. Then I navigated to where the typo was and changed it to 2. I then used ```:wq``` to save and quit the file. 
 ## Step 8
 ![Image](Step8.png)
-Keys Pressed: ```<Ctrl + R>```, j, a, v, a, c, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, ```<Space>```, c, ```<Enter>```. I reopened the command history and compiled all the java files again ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```. Then I execute the test file ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```.
+Keys Pressed: ```<Ctrl + R>```, j, a, v, a, c, ```<Enter>```. ```<Ctrl + R>```, j, a, v, a, ```<Space>```, c, ```<Enter>```. I reopened the command history and compiled all the java files again ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```. Then I execute the test file ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```. This retested the file.
+## Step 9
+![Image](Step9.png)
+Keys Pressed: ```<Ctrl + R>```, g, i, t, ```<Space>```, c, ```<Enter>```. ```<Ctrl + R>```, g, i, t, ```<Space>```, p, ```<Enter>```. I opened the command history and committed the change with this command ```git commit -m "Fixed typo" ListExamples.java```. Then I opened the command history again to push the commit ```git push -u origin main```. This allowed me to move the change from my local computer back to GitHub.
