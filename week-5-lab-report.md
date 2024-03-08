@@ -19,7 +19,7 @@ File Contents:
 ![Image](PriorChange.png)
 ![Image](FixChange.png) \
 Full Command Line:
-```bash test.sh``` - Results in compilation and execution of tests. \ 
+```bash test.sh``` - Results in compilation and execution of tests.  
 Description:
 The edit made to fix the bug was to change ```assertSame``` to ```assertArrayEquals```.
 ## Part 2
